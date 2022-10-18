@@ -1,0 +1,91 @@
+#contact{
+    margin-top: 10rem;
+}
+.contact__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact__option{
+    background:#28b65ec5;
+    padding: 1.2rem;
+    border-radius:1.2rem;
+    text-align: center;
+    border:1px solid #28b65ec5;
+}
+
+
+.contact__option:hover{
+    background:#28b674c5;
+    box-shadow: 0 0 30px #28b65ec5;
+}
+
+.contact__option-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.contact__option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+/* ======================== FORM ========================== */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius:0.5rem;
+    background:var(--color-bg);
+    border: 1px solid  #28b65e;
+    resize: none;
+    color:white;
+}
+
+/* ===================== MEDIA QUERIES== MD ============== */
+
+@media screen and (max-width:1024px) {
+  .contact__container{
+    grid-template-columns: 1fr;
+    margin-top: 32rem;
+  }
+}
+
+/* ===================== MEDIA QUERIES== SM ============== */
+
+@media screen and (max-width:600px) {
+    #contact{
+        margin-top: 70rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-top: 1rem;
+    }
+    .contact__options{
+        margin-top: 48rem
+    }
+    
+}
+
+/* ===================== MEDIA QUERIES== IPhone XR ============== */
+
+@media screen and (max-width:414px) {
+    #contact{
+        margin-top: 30rem;
+    }
+}

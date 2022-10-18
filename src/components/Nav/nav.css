@@ -1,0 +1,134 @@
+nav{
+    background: rgba(27, 143, 72, 0.795);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+   left: 36.5%;
+   bottom: 1.5rem;
+   display: flex;
+   gap: 2rem;
+   border-radius: 3rem;
+   backdrop-filter: blur(11px);
+}
+
+nav a{
+    background: transparent;
+    padding: 0.5rem;
+    border-radius:20%;
+    color: var(--color-light);
+    font-size: 1.3rem;
+}
+
+nav a:hover{
+    background:rgba(91, 247, 0, 0.274);
+    
+   
+}
+
+nav a.active{
+    background:rgba(91, 247, 0, 0.274);
+    color: var(--color-white);
+}
+
+
+
+/* ===================== MEDIA QUERIES== MD ============== */
+
+@media screen and (max-width:1024px) {
+    nav{
+        background: rgba(27, 143, 72, 0.795);
+        width: max-content;
+        display: block;
+        padding: 0.3rem 1.3rem;
+        z-index: 2;
+        position: fixed;
+       left: 25%;
+       bottom: 2rem;
+       display: flex;
+       gap: 1.5rem;
+       border-radius: 3rem;
+       backdrop-filter: blur(11px);
+    }
+    
+    nav a{
+        background: transparent;
+        padding: 0.5rem;
+        border-radius:20%;
+        color: var(--color-light);
+        font-size: 1.3rem;
+    }
+    
+    nav a:hover{
+        background:rgba(91, 247, 0, 0.274);
+        
+       
+    }
+}
+
+/* ===================== MEDIA QUERIES== MD ============== */
+
+@media screen and (max-width:600px) {
+    nav{
+        background: rgba(27, 143, 72, 0.795);
+        width: max-content;
+        display: block;
+        padding: 0.3rem 1.3rem;
+        z-index: 2;
+        position: fixed;
+       left: 22%;
+       bottom: 5rem;
+       display: flex;
+       gap: 1.5rem;
+       border-radius: 3rem;
+       backdrop-filter: blur(11px);
+    }
+    
+    nav a{
+        background: transparent;
+        padding: 0.5rem;
+        border-radius:20%;
+        color: var(--color-light);
+        font-size: 1.3rem;
+    }
+    
+    nav a:hover{
+        background:rgba(91, 247, 0, 0.274);
+        
+       
+    }
+}
+
+/* ===================== MEDIA QUERIES== MD ============== */
+
+@media screen and (max-width:414px) {
+    nav{
+        background: rgba(27, 143, 72, 0.795);
+        width: max-content;
+        display: block;
+        padding: 0.3rem 1.3rem;
+        z-index: 2;
+        position: fixed;
+        left: 12%;
+        bottom: 22rem;
+        display: flex;
+        gap: 1rem;
+        border-radius: 3rem 3rem 3rem 3rem;
+        backdrop-filter: blur(11px);
+    }
+    
+    nav a{
+        background: transparent;
+        padding: 0.5rem;
+        border-radius:20%;
+        color: var(--color-light);
+        font-size: 1.3rem;
+    }
+    
+    nav a:hover{
+        background:rgba(91, 247, 0, 0.274);
+        
+       
+    }
+}
